@@ -36,9 +36,9 @@ const App = () => {
          headerShown:false
       }} >
 
-    <Stack.Screen name="login" component={Login} />
-    <Stack.Screen name="index" component={Index} /> 
-    <Stack.Screen name="signup" component={Signup} />
+<Stack.Screen name="index" component={Index} />  
+<Stack.Screen name="signup" component={Signup} />
+    <Stack.Screen name="login" component={Login} /> 
   </Stack.Navigator>
       </NavigationContainer>
     )};

@@ -16,9 +16,9 @@ function index ({navigation}) {
     
     return(
     <>
-    <StatusBar barStyle="dark-content" />
-    <SafeAreaView style={{ 
-        backgroundColor:'#999' }}>
+    <StatusBar barStyle="light-content" />
+    
+      
       <ImageBackground style={{
         width:'100%',
         height:'100%',
@@ -58,13 +58,17 @@ function index ({navigation}) {
         height:'50%',width:'100%', 
         
       }}>
-      <Text  style={{
-        height:'40%',width:'100%',
-        fontSize:28,color:'#eee', 
-        paddingHorizontal:'10%',
 
-        paddingVertical:'5%',letterSpacing:0.8
-      }}> Get Fit {"\n"} Don't Quite </Text>
+        <View style={{
+        height:'40%',width:'100%',
+        paddingHorizontal:'12%',
+        justifyContent:'center'
+        }} > 
+      <Text  style={{
+         fontSize:28,color:'#eee', 
+         textAlign:'right',letterSpacing:0.8
+      }}> Get Fit {"\n"} Don't Quite {"\n"} Stay Motivated</Text>
+      </View>
  <View style={{
         height:'50%',width:'100%',
         justifyContent:'space-around',
@@ -74,7 +78,7 @@ function index ({navigation}) {
       }}>
        
        <TouchableOpacity style={{
-         backgroundColor: 'rgba(52, 52, 52, 0.6)',
+         backgroundColor: 'rgba(52, 52, 52, 0.7)',
          width:'35%',
          borderRadius:8,
          padding:'3%',
@@ -124,8 +128,7 @@ function index ({navigation}) {
   
 
       </ImageBackground>
-      
-    </SafeAreaView>
+       
   </>
     )
     };
